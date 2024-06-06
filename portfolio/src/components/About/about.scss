@@ -1,0 +1,39 @@
+.all-about-section{
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 80px;
+  height: 500px;
+}
+
+.about-title{
+  font-size: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-text-flex{
+  width: 70%;
+  height: 220px;
+  background: black;
+  border-radius: 15px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .about-text-1{
+    font-size: 30px;
+    margin-left: 30px;
+  }
+  .about-text-2{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+    margin: 30px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+}
