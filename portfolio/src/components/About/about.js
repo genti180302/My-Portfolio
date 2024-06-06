@@ -5,7 +5,7 @@ import './about.scss'
 const About = () => {
     return(
         <>
-            <section className='all-about-section'>
+            <section className='all-about-section' id='about'>
                 <h1 className='about-title'>About</h1>
                 <div className='about-text-flex'>
                     <p className='about-text-1'> Hi. I'm Gentian Latifi, nice to meet you. Please take a look around</p>

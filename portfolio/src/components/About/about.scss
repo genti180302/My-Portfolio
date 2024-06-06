@@ -15,12 +15,14 @@
 .about-text-flex{
   width: 70%;
   height: 220px;
-  background: black;
+  background-color: #e9e9ec;
   border-radius: 15px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
+  color: black;
+  font-weight: 500;
   .about-text-1{
     font-size: 30px;
     margin-left: 30px;
@@ -33,7 +35,7 @@
     font-size: 17px;
     margin: 30px;
     padding: 10px;
-    border: 2px solid white;
-    border-radius: 10px;
+    //border: 2px solid white;
+    //border-radius: 10px;
   }
 }

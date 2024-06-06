@@ -7,7 +7,7 @@ const Skills = ({data}) => {
 
     return(
         <>
-            <section className='all-skills-section'>
+            <section className='all-skills-section' id='skills'>
                 <h1 className='skills-title'>Skills</h1>
                 <p className='skills-text'>I enjoy diving into and learning new things. Here's a list of technologies I've worked with</p>
                 <div className='gridbox-flex'>

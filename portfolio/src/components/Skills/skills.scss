@@ -29,16 +29,17 @@
 }
 .grid-item {
   width: 200px;
-  background-color: black;
+  background-color: #e9e9ec;
   border: 1px solid #000;
   border-radius: 10px;
   padding: 15px;
   text-align: center;
+  color: black;
 }
 
 
 .grid-item:hover{
-  transform: scale(1.2);
+  transform: scale(1.1);
   background: midnightblue;
   color: white;
   border: 1px solid white;

@@ -5,7 +5,7 @@ import './home.scss'
 const Home = () => {
     return(
         <>
-            <section className='all-home-section'>
+            <section className='all-home-section' id='home'>
                 <div className='Text-info'>
                     <h1>I'm a Frontend Developer </h1>
                     <p>I started learning Frontend Development five months ago, and I love working with technologies
