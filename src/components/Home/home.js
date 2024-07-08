@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import portfolioImage from '../../images/portfolio.png'
 import './home.scss'
 import {Link} from 'react-scroll'
