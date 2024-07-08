@@ -1,8 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import portfolioImage from '../../images/portfolio.png'
 import './home.scss'
+import {Link} from 'react-scroll'
 
 const Home = () => {
+    const [isHovering, setIsHovering] = useState(false);
+
     return(
         <>
             <section className='all-home-section' id='home'>
@@ -11,10 +14,12 @@ const Home = () => {
                     <p>I started learning Frontend Development five months ago, and I love working with technologies
                         like React and Sass. Building dynamic interfaces with React and creating scalable stylesheets
                         with Sass is a lot of fun.</p>
-                    <button className='button-info'> About me!</button>
+                    <Link to='about' smooth={true} duration={1200}>
+                        <button className='button-info'> About me!</button>
+                    </Link>
                 </div>
                 <div className='img-info'>
-                <img style={{width:'300px',height:'400px',paddingBottom:'200px'}} src={portfolioImage} alt='comic'/>
+                <img src={portfolioImage} alt='comic'/>
             </div>
             </section>
         </>

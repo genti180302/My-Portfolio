@@ -19,7 +19,7 @@ const Work = ({data}) => {
                                  onMouseEnter={() => setIsHovered(true)}
                                  onMouseLeave={() => setIsHovered(false)}>
                                 <>
-                                {isHovered && (
+                                {isHovered ? (
                                     <div className='box-style-OnEnter'>
                                         <div>
                                             <p className='box-title'>{el.project}</p>
@@ -29,7 +29,9 @@ const Work = ({data}) => {
                                             <button className='work-button'><a href={el.github}>View Code</a></button>
                                         </div>
                                     </div>
-                                )}
+                                ): <div>
+                                    <p style={{width:'100%', height:'180px',fontWeight:'600', display:'flex',justifyContent:'center',alignItems:'center',fontSize:'25px'}}> Project </p>
+                                </div>}
                                 </>
                             </div>
                         </div>

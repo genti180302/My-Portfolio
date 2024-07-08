@@ -26,16 +26,18 @@
   color: white;
   width: 250px;
   height: 300px;
-  background-color: #e9e9ec;
+  background: linear-gradient(90deg, rgba(8,57,135,1) 23%, rgba(89,168,229,1) 69%);
+
   border-radius: 15px;
 }
 
 .box-style-OnEnter{
   color: white;
   width: 250px;
-  height: 300px;
-  background: #3d3de3;
+  height: 275px;
   border-radius: 15px;
+  background: linear-gradient(90deg, rgba(8,57,135,1) 23%, rgba(89,168,229,1) 69%);
+
 }
 
 .box-title{
@@ -56,16 +58,46 @@
 
 .work-button{
   width: 110px;
-  height: 35px;
+  height: 45px;
   border-radius: 12px;
   margin-left: 10px;
   margin-right: 10px;
   font-weight: 400;
-  background: #c6c6da;
+  background: rgb(89,168,229);
+  background: linear-gradient(49deg, rgba(89,168,229,1) 0%, rgba(8,76,135,1) 0%, rgba(8,57,135,1) 93%);
   border: none;
   a{
     text-decoration: none;
-    color: black;
+    color: white;
     font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .all-work-section{
+    width: 100%;
+    height: 450px;
+    .work-title{
+      font-size: 30px;
+    }
+    .work-text{
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+    .whole-work-box{
+      width: 100%;
+      .work-box{
+        color: white;
+        width: 170px;
+        background: linear-gradient(90deg, rgba(8,57,135,1) 23%, rgba(89,168,229,1) 69%);
+        border-radius: 15px;
+      }
+      .box-style-OnEnter{
+        width: 170px;
+        .box-title{
+          font-size: 23px;
+        }
+      }
+    }
   }
 }

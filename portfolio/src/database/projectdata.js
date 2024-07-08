@@ -1,8 +1,8 @@
 const projectData = [
     {
         project:'Cryptotracker',
-        link: 'https://www.freecodecamp.org/news/build-portfolio-website-react/',
-        github: 'https://github.com/genti180302/My-Portfolio'
+        link: 'https://668aeb69101d2c463cef2223--gegocrypto.netlify.app/',
+        github: 'https://github.com/genti180302/Final_Project'
     }
 ]
 
