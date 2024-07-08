@@ -3,7 +3,7 @@ import './skills.scss'
 
 
 const Skills = ({data}) => {
-    const [skills, setSkills] = useState(data);
+    // const [skills, setSkills] = useState(data);
 
     return(
         <>
@@ -12,7 +12,7 @@ const Skills = ({data}) => {
                 <p className='skills-text'>I enjoy diving into and learning new things. Here's a list of technologies I've worked with</p>
                 <div className='gridbox-flex'>
                 <div className='grid-container'>
-                    {skills.map((el,index) => {
+                    {data.map((el,index) => {
                         return <p className='grid-item' key={index}> {el}</p>
                     })
                     }

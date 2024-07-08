@@ -3,7 +3,7 @@ import './work.scss'
 
 
 const Work = ({data}) => {
-    const [projectData, setProject] = useState(data)
+    // const [projectData, setProject] = useState(data)
     const [isHovered, setIsHovered] = useState(false)
 
 
@@ -13,7 +13,7 @@ const Work = ({data}) => {
                 <h1 className='work-title'>Work</h1>
                 <p className='work-text'>Check out some of my projects</p>
                 <div>
-                    {projectData.map((el, index) => (
+                    {data.map((el, index) => (
                         <div className='whole-work-box' key={index}>
                             <div className={!isHovered ? 'work-box' : 'box-style-OnEnter'}
                                  onMouseEnter={() => setIsHovered(true)}

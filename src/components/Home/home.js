@@ -4,7 +4,7 @@ import './home.scss'
 import {Link} from 'react-scroll'
 
 const Home = () => {
-    const [isHovering, setIsHovering] = useState(false);
+    // const [isHovering, setIsHovering] = useState(false);
 
     return(
         <>
