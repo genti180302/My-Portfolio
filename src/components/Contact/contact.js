@@ -56,11 +56,18 @@ const Contact = () => {
         });
         setSubmitting(false);
     };
+    
+    // useEffect(() => {
+    //     if (Object.keys(error).length === 0 && submitting) {
+    //         finishSubmit();
+    //     }
+    // }, [error]);
+
     useEffect(() => {
         if (Object.keys(error).length === 0 && submitting) {
             finishSubmit();
         }
-    }, [error]);
+    }, [error, submitting, finishSubmit]);
 
     return(
         <>
