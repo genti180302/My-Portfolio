@@ -69,11 +69,18 @@
 @media only screen and (max-width: 480px){
   .section-contact-style{
     width: 100%;
+    height: 640px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
     .contact-title{
       font-size: 30px;
     }
     .contact-text{
       font-size: 20px;
+    }
+    div{
+      width: 100%;
     }
   }
 }

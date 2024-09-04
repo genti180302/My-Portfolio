@@ -12,7 +12,7 @@ const Work = ({data}) => {
             <section className='all-work-section' id='work'>
                 <h1 className='work-title'>Work</h1>
                 <p className='work-text'>Check out some of my projects</p>
-                <div>
+                <div className='all-boxes'>
                     {data.map((el, index) => (
                         <div className='whole-work-box' key={index}>
                             <div className={!isHovered ? 'work-box' : 'box-style-OnEnter'}
